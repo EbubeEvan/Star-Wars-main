@@ -1,1 +1,149 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo{
+  height: 3.3rem;
+}
+
+#logo2{
+  position: relative;
+  top: 0.4rem;
+}
+
+.contentContainer{
+  width: 73em;
+  margin-left: 7em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article{
+  width: 20em;
+  height: 20em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border-radius: 7px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+article:hover{
+  box-shadow: 0 0 15px rgb(95, 156, 247);
+}
+
+article:nth-child(1){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-1.0c96fd00.png');
+}
+
+article:nth-child(2){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-2.b0a7b209.png');
+}
+
+article:nth-child(3){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-3.1914d853.png');
+}
+
+article:nth-child(4){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-4.c21c4d4b.png');
+}
+
+article:nth-child(5){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-5.67d061d6.png');
+}
+
+article:nth-child(6){
+  background-image: url('https://finmavis.github.io/swapi-task/static/media/bg-card-6.b4fea25d.png');
+}
+
+h3, p {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.date{
+  color: gray;
+  margin-top: -1.5em;
+  font-size: 15px;
+}
+
+.synopsis{
+  font-size: 16.8px;
+}
+
+.lineDiv{
+  width: 20em;
+  height: 1px;
+  background-color: brown;
+  margin-bottom: 1em;
+}
+
+a{
+  color: yellow;
+  text-decoration: none;
+}
+
+@media screen and (max-width : 425px){  
+  .App{
+    width: 70%;
+  }
+
+  header{
+    width: 70%;
+    margin-left: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .logo{
+    height: 2.5rem;
+    position: relative;
+    left: 1rem;
+  }
+
+  .contentContainer{
+    width: 100%;
+    position: relative;
+    left: -5.5rem;
+  }
+
+  article{
+    width: 110%;
+    height: 14.5em;
+    padding-right: 1.5rem;
+    margin-left: -0.5rem;
+    margin-right: -4.5rem;
+    position: relative;
+    left: 0.6em;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  .date{
+    font-size: 12px;
+  }
+
+  .synopsis{
+    font-size: 14px;
+  }
+
+  .lineDiv{
+    width: 100%;
+  }
+}
 
